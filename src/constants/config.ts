@@ -1,10 +1,7 @@
 export const SITE_CONFIG = {
-  title: 'Elice task',
-  description: '과제 전형 테스트',
-  url: 'https://next-template-pyodol.vercel.app',
+  title: '오늘 뭐 먹지',
+  description: 'next로 만든 ai기반 식당 추천 사이트',
+  url: 'https://next-template-pyotato.vercel.app/',
 };
 
-export const HIDE_DEBUG_ARY = [
-  'getApiResponse',
-  // 'getMongoDbApiData',
-];
+export const HIDE_DEBUG_ARY = ['getApiResponse'];

@@ -14,7 +14,7 @@ import { GlobalStyle } from '@/styles/globalStyle';
 // !STARTERCONF Change these default meta
 // !STARTERCONF Look at @/constant/config to change them
 export const metadata: Metadata = {
-  metadataBase: new URL('https://next-template-pyodol.vercel.app/'),
+  metadataBase: new URL('https://next-template-pyotato.vercel.app/'),
   title: {
     default: SITE_CONFIG.title,
     template: `%s | ${SITE_CONFIG.title}`,

@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 export default function Mainpage({
   reactVersion = 'unknown',
   nextJsVersion = 'unknown',
@@ -8,9 +6,9 @@ export default function Mainpage({
     <main>
       <section>
         <div>hi!🌺</div>
-        <Link href='/mypage' prefetch={true}>
+        {/* <Link href='/mypage' prefetch={true}>
           go to my page
-        </Link>
+        </Link> */}
         <div>
           <p>
             mainPage! The latest React version is {reactVersion}, and the latest
